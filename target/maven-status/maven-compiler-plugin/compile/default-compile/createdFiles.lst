@@ -1,0 +1,9 @@
+com\andreitudose\SimpleItem.class
+com\andreitudose\ToDoList.class
+com\andreitudose\Item.class
+com\andreitudose\controllers\IndexController.class
+com\andreitudose\Theme.class
+com\andreitudose\controllers\ToDoListController.class
+com\andreitudose\SimpleToDoList.class
+com\andreitudose\SimpleTheme.class
+com\andreitudose\controllers\ItemController.class
