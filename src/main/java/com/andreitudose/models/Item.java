@@ -19,6 +19,11 @@ public class Item {
 
     public Item() { }
 
+    public Item(String text) {
+        this.text = text;
+        this.checked = false;
+    }
+
     public int getId() {
         return id;
     }

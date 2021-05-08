@@ -1,7 +1,6 @@
 package com.andreitudose.controllers;
 
-import com.andreitudose.SimpleToDoList;
-import com.andreitudose.SimpleItem;
+import com.andreitudose.models.ItemList;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -14,14 +13,14 @@ public class ToDoListController {
     @RequestMapping("/configureList")
     public String configureList(Model model) {
 
-        SimpleToDoList simpleToDoList = new SimpleToDoList();
-        model.addAttribute("simpleToDoList", simpleToDoList);
+        ItemList itemList = new ItemList();
+        model.addAttribute("itemList", itemList);
 
         return "list-settings";
     }
 
     @RequestMapping("/settingsSaved")
-    public String settingsSaved(@ModelAttribute("simpleToDoList") SimpleToDoList simpleToDoList) {
+    public String settingsSaved(@ModelAttribute("simpleToDoList") ItemList itemList) {
 
         return "list-settings-saved";
     }

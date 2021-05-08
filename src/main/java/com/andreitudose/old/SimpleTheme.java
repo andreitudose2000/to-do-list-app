@@ -1,8 +1,4 @@
-package com.andreitudose;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import com.andreitudose.Theme;
+package com.andreitudose.old;
 
 //@Component
 public class SimpleTheme implements Theme {

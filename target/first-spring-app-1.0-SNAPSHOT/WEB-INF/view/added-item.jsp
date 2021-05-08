@@ -5,7 +5,7 @@
     <title>ToDoList</title>
 </head>
 <body>
-    Avem: ${simpleItem.text} !
+    Avem: ${item.text} !
     <hr/>
     <a href="${pageContext.request.contextPath}/">Inapoi</a>
 </body>

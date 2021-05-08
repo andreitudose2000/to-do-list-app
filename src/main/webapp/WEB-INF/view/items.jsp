@@ -6,7 +6,12 @@
 </head>
 <body>
 
+    <c:forEach items="${items}" var="item">
+        Item: ${item.text} <br />
+    </c:forEach>
 
+    <hr/>
+    <a href="${pageContext.request.contextPath}/">Inapoi</a>
 
 </body>
 </html>

@@ -15,10 +15,13 @@
     </style>
 </head>
 <body>
-    <form:form action="processItem" modelAttribute="simpleItem">
+    <form:form action="processItem" modelAttribute="item">
         Text: <form:input path="text"/>
         <input type="submit" value="Submit" />
         <form:errors path="text" cssClass="error" />
     </form:form>
+
+    <hr/>
+    <a href="${pageContext.request.contextPath}/">Inapoi</a>
 </body>
 </html>

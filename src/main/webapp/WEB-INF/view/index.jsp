@@ -4,11 +4,17 @@
     <title>ToDoList</title>
 </head>
 <body>
-<h2> main page</h2>
-<hr/>
-<a href="${pageContext.request.contextPath}/items/addItem">Add item</a>
-<hr/>
-<a href="${pageContext.request.contextPath}/settings/configureList">List Settings</a>
-<hr/>
+    <h2> main page</h2>
+
+    <hr/>
+    <a href="${pageContext.request.contextPath}/items/addItem">Add item</a>
+
+    <hr/>
+    <a href="${pageContext.request.contextPath}/items/">See items</a>
+
+    <hr/>
+    <a href="${pageContext.request.contextPath}/settings/configureList">List Settings</a>
+
+
 </body>
 </html>

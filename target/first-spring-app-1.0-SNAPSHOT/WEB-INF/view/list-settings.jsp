@@ -6,9 +6,9 @@
 
 </head>
 <body>
-    <form:form action="settingsSaved" modelAttribute="simpleToDoList">
+    <form:form action="settingsSaved" modelAttribute="itemList">
         <form:select path="color">
-            <form:options items="${simpleToDoList.themes}"/>
+            <form:options items="${itemList.themes}"/>
         </form:select>
         <input type="submit" value="Submit" />
     </form:form>
